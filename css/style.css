@@ -35,6 +35,9 @@ p {
   width: 1140px;
   margin: 0 auto;
 }
+section{
+  margin: 100px 0px;
+}
 header {
   display: flex;
   /* flex-direction: row; */
@@ -42,6 +45,13 @@ header {
   background-color: #fff8f3;
 
   padding: 20px 10px;
+}
+.logo h3 {
+    font-size: 2.2rem;
+}
+
+.logo span {
+    color: #FD6E0A;
 }
 .navbar {
   margin: 0px 20px;
@@ -108,4 +118,47 @@ nav ul li a {
 
 .nav-bottom-right img {
   margin-bottom: -30px;
+}
+.about-me {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 120px 157px;
+}
+.about-box {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #6666;
+}
+
+.about-top h3 {
+    font-size: 1.9rem;
+    color: #181818;
+    margin-bottom: 21px;
+    font-weight: 700;
+}
+
+.about-top p {
+    color: #757575;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.about-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-bottom p {
+    color: #757575;
+    font-size: 1.25rem;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+
+
+.about-bottom h4 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 1.25rem;
 }
