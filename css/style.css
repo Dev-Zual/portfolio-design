@@ -208,3 +208,55 @@ nav ul li a {
   line-height: 1.75rem;
   margin-bottom: 10px;
 }
+section.summery h2 {
+    text-align: center;
+    color: #181818;
+    font-weight: 700;
+    font-size: 2.18rem;
+    margin-bottom: 100px;
+}
+
+.summery-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 25px;
+}
+
+.summery-info h3 {
+    color: #474747;
+    font-size: 1.87rem;
+    margin-bottom: 33px;
+}
+.summery-card {
+    margin: 31px 0px;
+}
+.summery-card h5 {
+    font-size: 1.5rem;
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.summery-card h6 {
+    color: #757575;
+    font-size: 1.125rem;
+}
+.summery-card p {
+    color: #757575;
+    font-size: 1rem;
+    margin: 21px 0px;
+    line-height: 1.75rem;
+  padding-right: 30px
+}
+.summery-card hr {
+    border: 1px solid #ddd;
+    margin-top: 32px;
+}
+.download-cv {
+    text-align: center;
+    margin-top: 40px;
+}
+.download-cv button {
+    font-size: 1.25rem;
+    padding: 18px;
+}
