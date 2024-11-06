@@ -62,7 +62,10 @@ header {
   /* flex-direction: row; */
   /* margin: 25px 50px; */
   background-color: #fff8f3;
-
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 60%;
   padding: 20px 10px;
 }
 .logo h3 {
@@ -98,7 +101,8 @@ nav ul li a {
   color: #474747;
 }
 .nav-bottom {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -126,6 +130,7 @@ nav ul li a {
   font-weight: 400;
   color: #757575;
   margin: 20px 0px;
+  font-style: normal;
 }
 .button button {
   margin-right: 18px;
@@ -162,6 +167,8 @@ nav ul li a {
   font-size: 1.1rem;
   margin-bottom: 30px;
   line-height: 1.9rem;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .about-bottom {
@@ -198,6 +205,7 @@ nav ul li a {
   color: #757575;
   padding: 6px 83px;
   line-height: 1.87rem;
+  font-style: normal;
 }
 .do-bottom {
   margin-top: 64px;
@@ -211,7 +219,7 @@ nav ul li a {
 
 .card {
   background: #fff;
-  box-shadow: 0px 1px 16px -8px #bdbaba;
+  box-shadow: 0px 6px 50px 0px rgb(0, 0, 0, 0.06);
   padding: 20px;
   border-radius: 5px;
 }
