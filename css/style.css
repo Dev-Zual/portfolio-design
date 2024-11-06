@@ -22,12 +22,14 @@ p {
   color: #fff;
   font-weight: 700;
   border: none;
+  cursor: pointer;
 }
 .btn-outline {
   border: 2px solid #fd6e0a;
   color: #fd6e0a;
   border-radius: 5px;
   background: #fff;
+  cursor: pointer;
 }
 .input-style {
   padding: 20px;
@@ -318,9 +320,19 @@ textarea {
   border-radius: 5px;
 }
 p.copyright {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 0.8rem;
-    color: #131313b3;
-    letter-spacing: 2px;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #131313b3;
+  letter-spacing: 2px;
+}
+.social-icon i {
+  color: #fd6e0a;
+  margin-right: 28px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.social-icon {
+  margin-top: 30px;
 }
